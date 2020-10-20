@@ -1,5 +1,7 @@
 # web3-webgl-template
 
+Article: https://medium.com/@leondo/unity-engine-metamask-wallet-6797d4699e45
+
 Automagically connect your Unity game to Metamask
 
 ![Screen Shot 2020-10-19 at 9 53 06 PM](https://user-images.githubusercontent.com/19412160/96530472-87839600-1255-11eb-8db4-3139f2eadde5.png)
