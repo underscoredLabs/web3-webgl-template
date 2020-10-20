@@ -21,3 +21,17 @@ Change template
 ![Screen Shot 2020-10-19 at 9 41 36 PM](https://user-images.githubusercontent.com/19412160/96530489-8e120d80-1255-11eb-8e27-c6d8f0cb3dc1.png)
 
 Build as webgl
+
+## Under the hood
+
+```javascript
+// Web3Template/TemplateData/web3Connect.js
+
+if (window.ethereum) {
+  web3 = new Web3(window.ethereum);
+  // connect popup
+  ethereum.enable();
+} else {
+  alert("Non-Ethereum browser detected. Please connect to a wallet");
+}
+```
